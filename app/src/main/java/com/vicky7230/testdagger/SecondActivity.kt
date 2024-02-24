@@ -10,7 +10,5 @@ class SecondActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
-        (application as TestApplication).logger.debug(this::class.java.simpleName)
-
     }
 }
