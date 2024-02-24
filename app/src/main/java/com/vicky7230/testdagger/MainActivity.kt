@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         DaggerOurFirstComponent.create().giveGraphModulesToMainActivity(this)
 
-        logger.log("Dagger2 is easy!")
+        logger.debug("Dagger2 is easy!")
 
     }
 }
